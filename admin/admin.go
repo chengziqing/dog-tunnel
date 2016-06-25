@@ -1,11 +1,11 @@
 package admin
 
 import (
-	"../auth"
-	"../common"
 	"crypto/tls"
 	"encoding/json"
 	"fmt"
+	"github.com/chengziqing/dog-tunnel/auth"
+	"github.com/chengziqing/dog-tunnel/common"
 	"net"
 	"net/http"
 	"strconv"

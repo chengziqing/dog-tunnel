@@ -1,10 +1,10 @@
 package auth
 
 import (
-	"../common"
 	"database/sql"
 	"errors"
 	"fmt"
+	"github.com/chengziqing/dog-tunnel/common"
 	_ "github.com/go-sql-driver/mysql"
 	"log"
 	"reflect"

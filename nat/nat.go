@@ -1,8 +1,8 @@
 package nat
 
 import (
-	"./stun"
 	"errors"
+	"github.com/chengziqing/dog-tunnel/nat/stun"
 	"net"
 	"strings"
 	"time"
